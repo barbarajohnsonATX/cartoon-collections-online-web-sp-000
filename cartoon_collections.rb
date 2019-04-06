@@ -11,7 +11,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  if arry.length.any? { array.each do |length|
+  if array.length.any? { |length| length > 2} 
+    array.each do |length|
     
 end
 
