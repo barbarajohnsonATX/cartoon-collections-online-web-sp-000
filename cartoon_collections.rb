@@ -32,6 +32,7 @@ def find_the_cheese(array)
     if cheese_types.include?(val)
       found_cheese << val
     end 
+  end 
     
   if found_cheese.empty? 
     return nil 
